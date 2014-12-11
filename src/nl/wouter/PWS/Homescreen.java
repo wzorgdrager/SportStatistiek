@@ -8,6 +8,8 @@ import javax.swing.JTextPane;
 import java.awt.BorderLayout;
 import java.awt.Font;
 import java.awt.Color;
+import java.awt.Image;
+import java.awt.Toolkit;
 
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -23,6 +25,9 @@ import javax.swing.BoxLayout;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLClassLoader;
 import java.util.ArrayList;
 import java.util.List;
 
